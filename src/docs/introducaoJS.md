@@ -1,6 +1,5 @@
 JavaScript - Uma Linguagem de Programação
- 1995 - criado por Brendan Eich
-
+s
 Curiosadades:  
 primeiro nome chamava Mocha
 Segundo nome chamava LiveScript
