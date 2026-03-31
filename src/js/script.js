@@ -69,18 +69,83 @@
 
 
 // exercicio 1
-const p = 100;
-const v = 10;
-const precoFinal = p - v;
-console.log("O preço final com desconto é:", precoFinal); 
+// const p = 100;
+// const v = 10;
+// const precoFinal = p - v;
+// console.log("O preço final com desconto é:", precoFinal); 
 
 
-// exercicio  2 
+// // exercicio  2 
 
-const usuarioLogado = 1;
-const token = 100;
-const transacaoAutorizada = usuarioLogado === 1 && token >=10;
-console.log("Transacao autorizada com sucesso", transacaoAutorizada);
+// const usuarioLogado = 1;
+// const token = 100;
+// const transacaoAutorizada = usuarioLogado === 1 && token >=10;
+// console.log("Transacao autorizada com sucesso", transacaoAutorizada);
 
+// Estrutura condicional 
 
+// if
+if(true) {
+    console.log("é Verdadeiro")
+} 
 
+// if/else
+
+let nome = "Fiap"
+
+if(nome=="fiap") {
+    console.log("nome verdadeiro")
+} else {
+    console.log("nome errado")
+}
+
+// if encadeado ou aninhado
+
+let idade = 61;
+
+if(idade <= 13) {
+    console.log("é uma crianca")
+} else if(idade > 13 && idade <=18) {
+    console.log("é um adolescente")
+} else if (idade > 18 && idade <= 59) {
+    console.log("é um adulto")
+} else {
+    console.log("é um idoso")
+}
+
+//  SWITCH CASE
+
+let times = "santos";
+
+switch(times) {
+    case "santos":
+        console.log("Um time idoso")
+        break;
+    case "sao paulo":
+        console.log("Time panetone")
+        break;
+    case "palmeiras":
+        console.log("Maior do brasil")
+        break;
+    case "corinthians":
+        console.log("time de bandido")
+        break;
+    default:
+        console.log("é tao ruim quanto a selecao brasileira")
+}
+
+// ternaria
+
+let salario = 100;
+let resultado = salario == 100 ? "Salario Certo":"Salario Errado"
+console.log(resultado)
+
+let usuario = "fiap";
+let userLogado = usuario === "fiap"?"Logado com sucesso":"usuario invalido";
+console.log(userLogado)
+
+function verificarParImpar(numero) {
+    return numero % 2 === 0 ?"PAR":"IMPAR";
+}
+
+console.log(verificarParImpar(4))
