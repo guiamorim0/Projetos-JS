@@ -45,26 +45,42 @@
 
 // OPERADORES ARITMETICOS
 
-const valor1=20;
-const valor2=10;
+// const valor1=20;
+// const valor2=10;
 
-console.log(valor1 + valor2);
-console.log(valor1 / valor2);
-console.log(valor1 - valor2);
-console.log(valor1 * valor2);
+// console.log(valor1 + valor2);
+// console.log(valor1 / valor2);
+// console.log(valor1 - valor2);
+// console.log(valor1 * valor2);
 
 // Operadores Logicos
 
-console.log(valor1 > valor2);
-console.log(valor1 > 10 && valor2 != 20);
-console.log(valor2 > 5 || valor1 > 50);
+
 
 // OPERADORES DE COMPARACAO
 
-console.log(valor1 < valor2);
-console.log(valor1 >= valor2);
-console.log(valor1 <= valor2);
-console.log(valor1 != valor2);
-console.log(valor1 == valor2);
-console.log(valor1 === valor2);
-console.log("O valor é:", valor2);
+// console.log(valor1 < valor2);
+// console.log(valor1 >= valor2);
+// console.log(valor1 <= valor2);
+// console.log(valor1 != valor2);
+// console.log(valor1 == valor2);
+// console.log(valor1 === valor2);
+// console.log("O valor é:", valor2);
+
+
+// exercicio 1
+const p = 100;
+const v = 10;
+const precoFinal = p - v;
+console.log("O preço final com desconto é:", precoFinal); 
+
+
+// exercicio  2 
+
+const usuarioLogado = 1;
+const token = 100;
+const transacaoAutorizada = usuarioLogado === 1 && token >=10;
+console.log("Transacao autorizada com sucesso", transacaoAutorizada);
+
+
+
